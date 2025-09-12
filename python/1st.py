@@ -47,6 +47,7 @@
 #    x = x + 4
 #    print(x)
 
+
 #    a, b = 10, 25
 #    c = 35
 #    if (a + b - c):
@@ -58,8 +59,10 @@
 #for i in (2,4):
 #    print(i)
 
+
 #for i in range(2,3):
 #    print(i)
+
 
 #b=5
 #while (b>7) :
@@ -77,16 +80,36 @@
 #        break
 #    print(i)
 #    i+=1
-
 #print("All done")
 
 
-i=1
-while i<5:
-    if i == 3:
-        i+=3
-        continue
-    print(i)
-    i+=1
+#i=1
+#while i<5:
+#    if i == 3:
+#        i+=3
+#        continue
+#    print(i)
+#    i+=1
+#print("All done")
 
-print("All done")
+str="abcd"
+print(str[2])
+
+st = "Like python"
+print(st[2:6:-1])
+
+st = "Like python"
+print(st[::-1])
+
+st = "Like python"
+print(st[7:])
+
+st = "Like python"
+print(st[:6])
+
+
+
+
+
+
+
