@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+<div class="container">
+<h2>Registration form</h2>
+<form>
+<!---name-->
+
+
+<lable form="Name">Name</lable>
+<input type="text" id="Name" placeholder="Enter your name"required>
+<!---email-->
+
+
+<lable form=":Email">Email</lable>
+<input type="email" id="Email" placeholder="Enter your email"required>
+
+
+<!---password-->
+<lable form=":Password">Password</lable>
+<input type="password" id="password" placeholder="Enter your password"required>   
+<!---gender(radio button)-->
+
+
+<label>Gender</label>
+<div class="radio group">
+    <label><input type="radio" name="gender" value="male" >male</label>
+    <label><input type="radio" name="gender" value="female">female</label>
+    <label><input type="radio" name="gender" value="other">other</label>
+</div>
+<!---country(dropdown)-->
+<label for="country">Country</label>
+<select id="country" required>
+    <option value="">select your country</option>
+    <option value="pakistan">pakistan</option>
+    <option value="india">india</option>
+    <option value="china">china</option>
+    <option value="usa">usa</option>
+    <option value="uk">uk</option>
+</select>
+<!---checkbox-->
+<div class="checkbox group">
+    <label><input type="checkbox" name="vehicle" value="Bike">I have a bike</label>
+    <label><input type="checkbox" name="vehicle" value="Car">I have a car</label>
+    <label><input type="checkbox" name="vehicle" value="Boat">I have a boat</label>
+</div>
+<!---submit button-->
+<button type="submit">Submit</button>
+
+</form>

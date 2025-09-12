@@ -1,0 +1,24 @@
+ation: none;
+    font-size: 16px;
+}
+
+.navbar a:hover{
+    background-color: .navbar{
+    background-color: #333;
+    overflow: hidden;
+
+}
+.navbar a{
+    float: left;
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 20px;
+    text-decor#573357;
+    color: yellowgreen;
+}
+
+.navbar a.active {
+    background-color: rebeccapurple;
+    color: azure;
+}

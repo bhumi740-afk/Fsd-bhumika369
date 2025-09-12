@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; 
+
+}
+header{
+    background-color: #573357;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    
+}
+footer{
+    background-color: #573357;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto; 
+}
+.social-icon{
+    margin: 10x 0;
+}
+.social-icon a{
+    margin: 10x 0;
+    text-decoration: none;
+    font-size: 16px;    
+    color: white;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+.social-icon:hover{
+    color: rgb(34, 25, 210);
+}
+@media (max-width: 600px) {
+    header,p{
+        padding: 20px 0;
+        font-size:20x;
+    }
+    .social-icon a {
+        font-size: 20px;
+        margin: 0 15px;
+    }
+}
